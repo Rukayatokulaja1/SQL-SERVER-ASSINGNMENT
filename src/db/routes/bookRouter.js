@@ -22,8 +22,9 @@ bookRouter.get("/listAllBooks",listAllBooks);
 bookRouter.put("/updateAuthor",updateAuthor);
 bookRouter.put("/updateGenre",updateGenre);
 bookRouter.delete("/deleteBook",deleteBook);
-bookRouter.delete("/deleteAllbooks",deleteAllBooks)
-bookRouter.get("/bookDetails",bookDetails)
+bookRouter.delete("/deleteAllbooks",deleteAllBooks);
+bookRouter.get("/bookDetails",bookDetails);
+
 
     module.exports = bookRouter;
 
