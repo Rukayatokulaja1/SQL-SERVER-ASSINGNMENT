@@ -1,5 +1,5 @@
 
-const Book = require("../models/bookmodel")
+const Book = require("../models/bookModel")
 
 async function bookDetails(req,res) {
     try {
